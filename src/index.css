@@ -3,11 +3,11 @@
 ============================================*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,600,700);
 
-html{
-  font-family: "Open Sans", sans-serif, Helvetica Neue, Helvetica, Arial;
+html {
+  font-family: "Open Sans", sans-serif, Helvetica Neue;
   font-size: 14px;
 }
-body  {
+body {
   margin: 0px;
 }
 .container {
@@ -26,7 +26,7 @@ body  {
  Navbar
 ============================================*/
 .navbar {
-  background: #F3F4F5;
+  background: #f3f4f5;
   padding-top: 20px;
 }
 .navbar-logo {
@@ -46,7 +46,7 @@ body  {
   padding-bottom: 10px;
 }
 .nav-link {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
 }
 .nav-link:hover {
@@ -66,21 +66,23 @@ body  {
 ============================================*/
 .pokemon-list-container {
   padding: 20px 10px 10px;
-  border: 2px solid rgb(3,172,14);
+  border: 2px solid rgb(3, 172, 14);
   border-radius: 8px;
 }
-.pokemon-list, .my-pokemon-list {
+.pokemon-list,
+.my-pokemon-list {
   position: relative;
   padding: 10px;
-  border: 2px solid rgb(3,172,14);
+  border: 2px solid rgb(3, 172, 14);
   border-radius: 8px;
   display: inline-block;
   margin: 0px 10px 10px;
   text-decoration: none;
   color: #2d2b2c;
 }
-.pokemon-list:hover, .my-pokemon-list {
-  background: rgb(3,172,14);
+.pokemon-list:hover,
+.my-pokemon-list {
+  background: rgb(3, 172, 14);
   color: #fff;
 }
 
@@ -98,7 +100,6 @@ body  {
   margin-bottom: 20px;
 }
 
-
 /* ========================================== 
  Pokemon Detail
 ============================================*/
@@ -106,30 +107,38 @@ body  {
 @-webkit-keyframes arrow_move {
   0% {
     opacity: 1;
-    top: -48px; }
+    top: -48px;
+  }
   50% {
     opacity: 0;
-    top: -24px; }
+    top: -24px;
+  }
   90% {
     opacity: 0;
-    top: -48px; }
+    top: -48px;
+  }
   100% {
     opacity: 1;
-    top: -48px; } 
+    top: -48px;
+  }
 }
 @keyframes arrow_move {
   0% {
     opacity: 1;
-    top: -48px; }
+    top: -48px;
+  }
   50% {
     opacity: 0;
-    top: -24px; }
+    top: -24px;
+  }
   90% {
     opacity: 0;
-    top: -48px; }
+    top: -48px;
+  }
   100% {
     opacity: 1;
-    top: -48px; } 
+    top: -48px;
+  }
 }
 
 .btn-catch {
@@ -180,10 +189,10 @@ body  {
 /* Modal Popup
 -------------------------------------*/
 .scroll-locked {
-  overflow: hidden; 
+  overflow: hidden;
 }
 .overlay-modal {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -195,7 +204,7 @@ body  {
   min-height: 200px;
   width: 280px;
   border-radius: 4px;
-  border: 2px solid rgba(0,0,0,0.6);
+  border: 2px solid rgba(0, 0, 0, 0.6);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -217,17 +226,19 @@ body  {
 .form-control {
   width: -webkit-fill-available;
   width: fill-available;
-  padding: .25rem;
+  padding: 0.25rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
-  border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.form-control:active, .form-control:hover, .form-control:focus {
+.form-control:active,
+.form-control:hover,
+.form-control:focus {
   outline: none;
 }
 @media (min-width: 380px) {
@@ -250,10 +261,3 @@ body  {
     width: 120px;
   }
 }
-
-
-
-
-
-
-
